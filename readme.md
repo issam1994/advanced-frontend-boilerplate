@@ -1,6 +1,4 @@
-# Gulp with TailwindCSS Starter Kit
-
-Gulp with TailwindCSS Starter Kit ( Updated with [TailwindCSS JIT](https://github.com/tailwindlabs/tailwindcss-jit) )- A repo which makes your development easier with predefined gulp tasks that help you to use [tailwindcss](https://github.com/tailwindcss/tailwindcss) with simple npm commands 
+# Gulp with TailwindCSS and some other libs
 
 ## Usage
 
@@ -33,19 +31,19 @@ To change the path of files and destination/build folder, edit options in **conf
         base: "./src",
         css: "./src/css",
         js: "./src/js",
-        img: "./src/img"
+        img: "./src/images"
      },
      dist: {
          base: "./dist",
          css: "./dist/css",
          js: "./dist/js",
-         img: "./dist/img"
+         img: "./dist/images"
      },
      build: {
          base: "./build",
          css: "./build/css",
          js: "./build/js",
-         img: "./build/img"
+         img: "./build/images"
      }
   }
   ...

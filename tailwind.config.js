@@ -19,6 +19,7 @@ module.exports = {
           danger: "red",
         },
       },
+      // converts px to rem 
       spacing: {
         // plugin by issam
         ...(() => {
@@ -29,6 +30,7 @@ module.exports = {
           return utilities;
         })(),
       },
+      // converts px to rem 
       fontSize: {
         ...(() => {
           let utilities = {};
@@ -38,6 +40,7 @@ module.exports = {
           return utilities;
         })(),
       },
+      // for styles below a breakpoint
       screens: {
         "max-2xl": { max: "1535px" },
         // => @media (max-width: 1535px) { ... }
